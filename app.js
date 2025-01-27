@@ -9,7 +9,7 @@ const app = express();
 require("./models/database").connectDatabase();
 
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "http://localhost:3001",
     credentials: true,
 }));
 
